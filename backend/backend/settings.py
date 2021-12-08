@@ -97,8 +97,10 @@ SIMPLE_JWT = {
 
 MIDDLEWARE = [
     # react can get api from django
-    #  that is permission"corsheaders.middleware.CorsMiddleware",
-
+    #  that is permission
+    "corsheaders.middleware.CorsMiddleware",
+    
+    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
